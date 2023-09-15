@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
-
 import { COLORS, FONT, SIZES } from "../../../constants";
+
 
 const styles = StyleSheet.create({
   container: {
@@ -31,6 +31,8 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     borderRadius: SIZES.medium,
+    borderColor: 'gray',
+    borderWidth: 0.5,
     height: "100%",
   },
   searchInput: {

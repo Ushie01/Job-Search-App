@@ -5,6 +5,14 @@
       "bundler": "metro"
     },
     "name": "nativeapp",
-    "slug": "nativeapp"
+    "slug": "nativeapp",
+    "extra": {
+      "eas": {
+        "projectId": "373e109e-1c4a-4442-b605-7e006b9d2e1a"
+      }
+    },
+    "android": {
+      "package": "com.ushie.nativeapp"
+    }
   }
 }
